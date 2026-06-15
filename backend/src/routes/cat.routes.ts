@@ -7,6 +7,6 @@ router.post("/create", createCatController)
 router.get("/", getAllCatsController)
 router.get("/:id", getSingleCatController)
 router.get("/search/all", searchCatController)
-router.get("/recommend", recommendController)
+router.post("/recommend", recommendController)
 
 export default router
